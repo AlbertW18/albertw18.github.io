@@ -19,11 +19,12 @@ body {
 
 .small-text {
   color: #5b5b5b;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: bold;
-  padding: 8px 16px;
-  border-radius: 50px;
-  letter-spacing: 0.2px;
+  padding: 2px 1px;
+  border-radius: 20px;
+  letter-spacing: 0.1px;
+  margin-right: .5rem;
 }
 
 ul {
@@ -110,8 +111,8 @@ b, strong {
 .animated-info {
   display: inline-block;
   vertical-align: top;
-  margin-top: 5px;
-  min-width: 260px;
+  margin-top: 3px;
+  min-width: 300px;
   position: relative;
 }
 
@@ -120,7 +121,7 @@ b, strong {
 }
 
 .animated-item {
-  font-size: 38px;
+  font-size: 40px;
   line-height: inherit;
   display: block;
   opacity: 0;
@@ -135,7 +136,7 @@ b, strong {
   animation-delay: 2s;
 }
 .animated-item:nth-child(3n+3) {
-  animation-delay: 4s;
+  animation-delay: 3s;
 }
 
 @keyframes BottomTotop {
@@ -188,6 +189,7 @@ b, strong {
 }
 
 .navbar-brand {
+  font-size: 30px;
   font-weight: bold;
 }
 
@@ -264,6 +266,10 @@ b, strong {
   font-size: 16px;
   font-weight: normal;
   display: block;
+}
+
+::selection{
+  background: none;
 }
 
 .color-mode {
